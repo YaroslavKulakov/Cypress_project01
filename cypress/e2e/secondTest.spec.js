@@ -24,6 +24,8 @@
 //     cy.get('[title="Сховати"][onclick="mw.centralNotice.hideBanner();return false;"]')
 // })
 
+//coment
+
 it('Using get with find end eq', () =>{
         cy.visit("https://next.privat24.ua/deposit/open")
         cy.get('.navMenu_QG5K9Dh6AQ', { timeout: 10000 }).find('div').find('[rel="noopener noreferrer"]').eq(1)
