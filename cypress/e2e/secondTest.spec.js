@@ -1,30 +1,30 @@
 
 
-// it('by id', () =>{
-//         cy.visit("https://uk.wikipedia.org/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0_%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0")
+it('by id', () =>{
+        cy.visit("https://uk.wikipedia.org/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0_%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0")
 
-//         cy.get('#p-search').click()
-// })
+        cy.get('#p-search').click()
+})
 
-// it('by class', () =>{
-//     cy.visit("https://uk.wikipedia.org/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0_%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0")
+it('by class', () =>{
+    cy.visit("https://uk.wikipedia.org/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0_%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0")
 
-//     cy.get('.mw-list-item')
-// })
+    cy.get('.mw-list-item')
+})
 
-// it('by tag', () =>{
-//     cy.visit("https://uk.wikipedia.org/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0_%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0")
+it('by tag', () =>{
+    cy.visit("https://uk.wikipedia.org/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0_%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0")
 
-//     cy.get('nav')
-// })
+    cy.get('nav')
+})
 
-// it.only('by tag value', () =>{
-//     cy.visit("https://uk.wikipedia.org/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0_%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0")
+it.only('by tag value', () =>{
+    cy.visit("https://uk.wikipedia.org/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0_%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0")
 
-//     cy.get('[title="Сховати"][onclick="mw.centralNotice.hideBanner();return false;"]')
-// })
+    cy.get('[title="Сховати"][onclick="mw.centralNotice.hideBanner();return false;"]')
+})
 
-//coment
+
 
 it('Using get with find end eq', () =>{
         cy.visit("https://next.privat24.ua/deposit/open")
